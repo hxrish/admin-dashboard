@@ -129,7 +129,7 @@
 .right-top1{
     display: grid;
     grid-template-columns: 6fr 3fr;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .right-topSearch{
@@ -179,20 +179,24 @@
 }
 
 .right-top2{
-    border: 1px solid;
+    /* border: 1px solid; */
     display: grid;
-    grid-template-columns: 6fr 3fr;
+    grid-template-columns: 6fr 4fr;
 }
 
 .top2-userInfo{
     display: grid;
     grid-template-columns: 2fr 8fr;
-    border: 1px solid;
+    /* border: 1px solid; */
+    gap: 1rem;
+    align-items: center;
 }
+
 
 .top2-userPfp{
     display: flex;
     justify-content: end;
+    align-items: center;
     height: 100%;
     width: 100%;
 }
@@ -208,26 +212,151 @@
 
 .top2-greeting{
     display: grid;
-    grid-template-rows: 1.2fr 2fr;
-    border: 1px solid;
+    grid-template-rows: 2fr 2fr;
+    align-items: center;
+    /* border: 1px solid; */
 }
 
 .welcome-message{
-    border: 1px solid;
+    margin-top: 5px;
+    display: flex;
+    /* border: 1px solid; */
+    /* align-items: end; */
 }
 
 .greeting-userName{
-    border: 1px solid;
+    display: flex;
+    align-items: flex-start;
+    font-size: 18px;
+    /* border: 1px solid; */
 }
 
 .top2-nav{
-    border: 1px solid;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.top2-navItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 16px;
+    background-color: #3b82f6;
+    color: white;
 }
 
 .right-main{
     display: grid;
     grid-template-columns: 7.8fr 2.2fr;
-    background-color: #94a3b8;
+    background-color: #cbd5e1;
+    padding: 16px;
+    gap: 1.5rem;
+}
+
+.announcements-card{
+    width: 90%;
+    height: 85%;
+    margin-left: 0.2rem;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center;
+    padding: 8px; */
+    border-radius: 8px;
+    font-size: 8px;
+}
+
+.announcements-card{
+    padding:1rem;
+    background-color: #f4f4f5;
+}
+
+#announcements-txt{
+    font-size: 0.8rem;
+}
+
+.main-txt{
+    color: #64748b;
+    margin-bottom: 0.6rem;
+}
+
+hr{
+    margin-bottom: 0.6rem;
+}
+
+.trending-card{
+    width: 90%;
+    height: 90%;
+    background-color: #f4f4f5;
+    display: flex;
+}
+
+.trending-card{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-rows: 1fr;
+    padding: 8px;
+    border-radius: 13px;
+}
+
+.trending-profile{
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    gap: 0.5rem;
+}
+
+.trending-pfp{
+    display: flex;
+    justify-content: end;
+    /* border: 1px solid; */
+    align-items: center;
+}
+
+.trendp{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.trending-pfptxt{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    /* border: 1px solid; */
+}
+
+.trend-usrn{
+    display: flex;
+    align-items: end;
+    font-size: 0.8rem;
+    color: #334155;
+    /* border: 1px solid; */
+}
+
+.trend-usrd{
+    display: flex;
+    align-items: flex-start;
+    font-size: 0.6rem;
+    color: #64748b;
+    /* border: 1px solid; */
+}
+
+.orange{
+    background-color: orange;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.yellow{
+    background-color: yellow;
 }
 
 .right-main1{
@@ -235,5 +364,11 @@
 }
 
 .right-main2{
-    border: 1px solid;
+    display: grid;
+    /* border: 1px solid; */
+    grid-template-rows: 1.6fr 1.4fr;
+}
+
+.announcements{
+    /* border: 1px solid; */
 }
