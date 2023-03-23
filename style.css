@@ -17,8 +17,8 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    background-color: #60a5fa;
-    padding: 14px;
+    background-color: #3b82f6;
+    padding: 25px;
 }
 
 .left-header{
@@ -257,6 +257,94 @@
     gap: 1.5rem;
 }
 
+.right-main1{
+    padding: 5px;
+}
+
+.right-main1grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 100%;
+    height: 95%;
+    margin-top: 1%;
+    /* border: 1px solid; */
+}
+
+.right-main1cell{
+    /* border: 1px solid; */
+    padding: 16px;
+    border-left: 7px solid orange;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+}
+
+.solo{
+    border-left: 7px solid #075985;
+}
+
+.ghost{
+    border-left: 7px solid #4338ca;
+}
+
+.dollar{
+    border-left: 7px solid #dc2626;
+}
+
+.pink-matter{
+    border-left: 7px solid #be185d;
+}
+
+.siegfried{
+    border-left: 7px solid #facc15;
+}
+
+.white{
+    border-left: 7px solid #94a3b8;
+}
+
+.cell-content{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 7fr 1.5fr;
+}
+
+.cell-txt{
+    /* border: 1px solid; */
+}
+
+.cellp{
+    font-size: 0.8rem;
+    color: #64748b;
+}
+
+.cell-btn{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    /* border: 1px solid; */
+}
+
+.star{
+    width: 5%;
+    height: 100%;
+    /* border: solid 1px; */
+}
+
+.eye{
+    width: 5%;
+    height: 100%;
+    /* border: 1px solid; */
+}
+
+.fork{
+    width: 5%;
+    height: 100%;
+    /* border: 1px solid; */
+}
+
 .announcements-card{
     width: 90%;
     height: 85%;
@@ -360,7 +448,7 @@ hr{
 }
 
 .right-main1{
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .right-main2{
